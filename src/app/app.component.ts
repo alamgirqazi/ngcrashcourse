@@ -9,7 +9,6 @@ import { QuotesService } from "./quotes.service";
 export class AppComponent implements OnInit {
   author;
   quote;
-
   constructor(private quotesService: QuotesService) {}
 
   ngOnInit() {
